@@ -1,0 +1,27 @@
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  background: linear-gradient(to bottom, #f7ecde 60%, #fec260 50%);
+  width: fit-content;
+  margin: auto;
+  font-size: 50px;
+  line-height: 60px;
+  transition: 1s;
+}
+h1:hover {
+  background: linear-gradient(to bottom, #f7ecde 30%, #fec260 50%);
+}
+
+p {
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  background: linear-gradient(to right, #3fa55c 45%, #b5ac49 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bor {
+  border-bottom: dotted;
+}
